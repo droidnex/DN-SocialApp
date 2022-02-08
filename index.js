@@ -5,7 +5,7 @@ const app = express()
 const PORT = process.env.PORT || 4000
 
 app.get('/', (req, res) => {
-    res.send('<h3>Welcome to Droidnex !</h3>')
+    res.send('<h4>Welcome to Droidnex !</h4>')
 });
 
 app.get('/api/v1/instagram', (req, res) => {
